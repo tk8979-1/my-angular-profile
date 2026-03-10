@@ -1,0 +1,145 @@
+.container {
+  max-width: 700px; /* reduced from 900 */
+  margin: 40px auto;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  padding: 0 16px;
+}
+
+body {
+  background: linear-gradient(180deg, #f7faff, #eef5ff);
+}
+
+
+
+
+mat-card {
+  border-radius: 12px; /* softer */
+  padding: 20px;       /* reduced */
+box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+
+}
+
+.profile-card {
+  background: linear-gradient(135deg, #1f1f1f, #292929);
+  color: white;
+}
+
+.profile-card mat-card-title {
+  font-size: 28px;
+  font-weight: 600;
+}
+
+.profile-card mat-card-subtitle {
+  color: #ccc;
+  margin-bottom: 15px;
+}
+
+.profile-card,
+.clients-card,
+.tech-card {
+  text-align: center;
+}
+
+
+.info p {
+  margin: 8px 0;
+  font-size: 16px;
+}
+
+.links {
+  margin-top: 20px;
+  display: flex;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+
+.clients-card ul {
+  list-style: none;
+  padding: 0;
+  margin-top: 15px;
+}
+
+.name-title-row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 12px;
+    color: #c7c5c5;
+
+}
+
+.name-title-row-t {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 12px;
+    color: #060606;
+
+}
+
+.name-title-row .divider {
+      color: #c7c5c5;
+
+  font-weight: 400;
+}
+
+.name-title-row-t  {
+      color: #0e0b0b;
+
+  font-weight: 400;
+}
+
+.name-title-row .title {
+  font-weight: 500;
+    color: #c7c5c5;
+}
+
+
+.contact-button{
+      position: relative;
+    top: 10px;
+    left: -11px;
+
+}
+
+.contact-list {
+  list-style: disc;
+  padding-left: 20px;
+  margin-top: 16px;
+  text-align: left;
+  display: inline-block; /* centers the whole list */
+}
+
+.contact-list li {
+  font-size: 16px;
+  padding: 6px 0;
+  color: #c7c5c5;
+  font-weight: 500;
+}
+
+
+.clients-card li {
+  padding: 8px 0;
+  font-size: 16px;
+}
+
+.tech-chips {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 16px;
+}
+
+mat-chip {
+  font-size: 13px;
+  padding: 6px 10px;
+}
